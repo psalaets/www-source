@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Personal site of Paul Salaets">
+  <link rel="stylesheet" href="/{{pkg.version}}/main.css">
+  <link rel="canonical" href="https://paulsalaets.com/">
+  <title>
+    {% if title %}{{ title }} | {% endif %}paulsalaets.com
+  </title>
+</head>
+<body class="font-base font-sans text-gray-900">
+  <header class="p-4 sm:p-8">
+    {% include "partials/site-nav.njk" %}
+  </header>
+  <main class="pb-4">
+    <div class="mx-auto bg-white p-4 sm:max-w-3xl sm:px-16">
+      {{ content | safe }}
+    </div>
+  </main>
+  <footer class="p-8 text-center text-sm border-t-2 border-gray-200">
+    <span class="whitespace-no-wrap">
+      ©2019 Paul Salaets.
+    </span>
+    <span class="whitespace-no-wrap">
+      Built with {% link "https://www.11ty.io/" %}Eleventy{% endlink %} and {% link "https://tailwindcss.com/" %}Tailwind CSS{% endlink %}.
+    </span>
+  </footer>
+</body>
+</html>

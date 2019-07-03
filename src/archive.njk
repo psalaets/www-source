@@ -1,0 +1,19 @@
+---
+layout: layouts/page
+title: Archive
+---
+{% for postsByYear in collections.post | reverse | byYear %}
+<section class="mt-4">
+  <h2 class="text-2xl font-bold">
+    <span class="sr-only">Posts written in</span>
+    {{postsByYear.year}}
+  </h2>
+  <ul>
+    {% for post in postsByYear.posts %}
+      <li>
+        {% link post.url %}{{ post.data.title }}{% endlink %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

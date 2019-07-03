@@ -1,0 +1,14 @@
+<nav>
+  <a class="font-bold text-sm sm:text-base inline-block mr-4" href="/" title="Home">
+    Paul Salaets
+  </a>
+  <a class="text-sm sm:text-base inline-block mr-4 {% if page.url == "/" %}border-b-4 border-green-300{% endif %}" href="/" title="Home">
+    Home
+  </a>
+  <a class="text-sm sm:text-base inline-block mr-4 {% if page.url == "/about/" %}border-b-4 border-green-300{% endif %}" href="/about" title="About">
+    About
+  </a>
+  <a class="text-sm sm:text-base inline-block mr-4 {% if page.url == "/archive/" %}border-b-4 border-green-300{% endif %}" href="/archive" title="Archive">
+    Archive
+  </a>
+</nav>
