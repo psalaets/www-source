@@ -8,9 +8,8 @@
     "dserve": "DEBUG=Eleventy* eleventy --serve",
     "serve": "eleventy --serve",
     "watch-styles": "gulp watch",
-    "build-styles": "gulp styles",
     "build": "eleventy",
-    "postbuild": "npm run build-styles"
+    "postbuild": "gulp post-process"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +21,7 @@
     "autoprefixer": "^9.6.0",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-postcss": "^8.0.0",
     "postcss": "^7.0.17",
     "postcss-import": "^12.0.1",
