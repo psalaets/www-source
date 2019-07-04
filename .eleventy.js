@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
   eleventyConfig.addPassthroughCopy('src/assets');
+  eleventyConfig.addPassthroughCopy('src/CNAME');
 
   eleventyConfig.addFilter('postDate', value => {
     return formatDate(value, 'D MMM YYYY');
