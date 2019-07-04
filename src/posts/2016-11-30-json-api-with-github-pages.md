@@ -1,7 +1,7 @@
 ---
 title: Making a JSON API with GitHub Pages
 layout: post
-meta_description: How to make a static JSON API using GitHub Pages
+metaDescription: How to make a static JSON API using GitHub Pages
 twitter_url: https://twitter.com/paulsalaets/status/805875228668809217
 ---
 

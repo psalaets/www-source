@@ -1,7 +1,7 @@
 ---
 title: Quickly accepting defaults of npm init and bower init
 layout: post
-meta_description: Start a throwaway npm or bower module with minimal fuss
+metaDescription: Start a throwaway npm or bower module with minimal fuss
 twitter_url: https://twitter.com/paulsalaets/status/595550000702173186
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Selecting a broadphase in p2.js
 layout: post
-meta_description: Choosing the right broadphase for your game can have performance benefits.
+metaDescription: Choosing the right broadphase for your game can have performance benefits.
 twitter_url: https://twitter.com/paulsalaets/status/618833363139469313
 ---
 

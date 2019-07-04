@@ -1,7 +1,7 @@
 ---
 title: Exposing a node module as a global variable
 layout: post
-meta_description: Use browserify or webpack to make a CommonJS-only module available as a global variable
+metaDescription: Use browserify or webpack to make a CommonJS-only module available as a global variable
 twitter_url: https://twitter.com/paulsalaets/status/605749980461023232
 ---
 

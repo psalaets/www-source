@@ -1,7 +1,7 @@
 ---
 title: Disable debug info to increase Angular performance
 layout: post
-meta_description: Disable Angular debug info for a performance boost
+metaDescription: Disable Angular debug info for a performance boost
 twitter_url: https://twitter.com/paulsalaets/status/593371511525871616
 ---
 

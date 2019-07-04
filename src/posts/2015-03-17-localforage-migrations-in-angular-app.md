@@ -1,7 +1,7 @@
 ---
 title: localForage migrations in an Angular app
 layout: post
-meta_description: A module to migrate localForage data in an Angular app
+metaDescription: A module to migrate localForage data in an Angular app
 twitter_url: https://twitter.com/paulsalaets/status/577832690940030977
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Figure out what's in an Angular app
 layout: post
-meta_description: Introducing a tool to see what injectables are in an Angular app and what modules they are from.
+metaDescription: Introducing a tool to see what injectables are in an Angular app and what modules they are from.
 twitter_url: https://twitter.com/paulsalaets/status/603207641540599809
 ---
 

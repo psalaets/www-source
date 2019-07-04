@@ -1,7 +1,7 @@
 ---
 title: Cleaning up Angular $rootScope event listeners
 layout: post
-meta_description: How to clean up rootScope event listeners and what happens when you forget
+metaDescription: How to clean up rootScope event listeners and what happens when you forget
 twitter_url: https://twitter.com/paulsalaets/status/575668042119667712
 ---
 
