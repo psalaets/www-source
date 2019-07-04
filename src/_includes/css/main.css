@@ -20,6 +20,17 @@
   white-space: nowrap;
 }
 
+.skipnav {
+  position: absolute;
+  top: -40px;
+  transition: top 1s ease;
+}
+
+.skipnav:focus {
+  top: 0px;
+  transition: top .2s ease-out;
+}
+
 .post-excerpt p {
   @apply my-6;
 }

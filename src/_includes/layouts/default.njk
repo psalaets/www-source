@@ -13,9 +13,10 @@
 </head>
 <body class="font-base font-sans text-gray-900">
   <header class="p-4 sm:p-8">
+    <a href="#main" class="skipnav">skip to main content</a>
     {% include "partials/site-nav.njk" %}
   </header>
-  <main class="pb-4">
+  <main id="main" class="pb-4">
     <div class="mx-auto bg-white p-4 sm:max-w-3xl sm:px-16">
       {{ content | safe }}
     </div>
