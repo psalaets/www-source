@@ -1,15 +1,21 @@
 const { src, dest, watch, series } = require('gulp');
 
+const htmlmin = require('gulp-htmlmin');
 const postcss = require('gulp-postcss');
 const purgecss = require('@fullhuman/postcss-purgecss');
 const cssnano = require('cssnano');
 
 const axios = require('axios');
 
-module.exports.watch = watchHtmlOutput;
-module.exports.styles = processStyleOutput;
+const postProcess = series(
+  postProcessStyles,
+  postProcessHtml
+);
 
-function processStyleOutput() {
+module.exports.watch = watchHtml;
+module.exports['post-process'] = postProcess;
+
+function postProcessStyles() {
   return src('_site/**/*.css')
     .pipe(postcss([
       purgecss({
@@ -21,8 +27,17 @@ function processStyleOutput() {
     .pipe(dest('_site/'));
 }
 
-function watchHtmlOutput(cb) {
-  watch('_site/**/*.html', series(processStyleOutput, reloadBrowser));
+function postProcessHtml() {
+  return src('_site/**/*.html')
+    .pipe(htmlmin({
+      removeComments: true,
+      collapseWhitespace: true
+    }))
+    .pipe(dest('_site/'));
+}
+
+function watchHtml(cb) {
+  watch('_site/**/*.html', series(postProcess, reloadBrowser));
 }
 
 function reloadBrowser() {
