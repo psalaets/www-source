@@ -1,6 +1,6 @@
 echo 'Hold on to your butts'
 
-# increment version in package.json
+npm run bump-version
 
 rm -rf _site/*
 npm run build
