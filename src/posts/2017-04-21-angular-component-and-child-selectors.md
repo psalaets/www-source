@@ -6,7 +6,7 @@ metaDescription: Angular components without breaking child selectors
 
 Angular components leave custom elements in the dom and that breaks styles which rely on child selectors. Here's a workaround.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

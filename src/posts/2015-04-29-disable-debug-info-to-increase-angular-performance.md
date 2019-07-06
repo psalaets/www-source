@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/593371511525871616
 
 Angular adds metadata to the DOM to aid development tools. Turning this off in production can give a performance boost.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

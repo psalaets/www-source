@@ -8,7 +8,7 @@ metaDescription: Using gulp to pre-cache Angular templates so they are included 
 
 In production deployments, include directive and route templates as part of your initial js load to reduce http requests made when using your app.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

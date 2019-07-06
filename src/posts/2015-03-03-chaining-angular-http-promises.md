@@ -7,7 +7,7 @@ metaDescription: The success() and error() methods on promises returned by the A
 
 Angular adds `success()` and `error()` convenience methods to promises returned by `$http` but they don't work the same as `then()`.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

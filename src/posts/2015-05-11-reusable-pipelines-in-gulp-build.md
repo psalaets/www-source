@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/597711855616978944
 
 Since a gulp build is just JavaScript code, you can make small processing pipelines and reuse them.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

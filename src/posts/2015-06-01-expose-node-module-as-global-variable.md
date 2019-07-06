@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/605749980461023232
 
 I wanted to try a node module in a browser app that uses global variables to share stuff.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

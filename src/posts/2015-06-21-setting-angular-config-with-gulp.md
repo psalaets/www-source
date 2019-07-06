@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/612996167475957760
 
 Exploring a way to set an Angular app's config from a Gulp build.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

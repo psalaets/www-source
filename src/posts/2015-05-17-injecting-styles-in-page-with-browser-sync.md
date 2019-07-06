@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/600300124925919234
 
 Every time I open the BrowserSync docs I find something awesome.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

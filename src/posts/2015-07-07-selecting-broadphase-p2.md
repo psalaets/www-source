@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/618833363139469313
 
 Choosing the right broadphase for your game can have performance benefits.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

@@ -7,7 +7,7 @@ metaDescription: I run multiple static web apps at the same domain, so their off
 
 Through the magic of GitHub Pages I've got multiple static web apps hosted at the same domain. That means offline storage (IndexedDB, WebSQL, LocalStorage) for these apps is in the same bucket. Luckily localForage provides a way to keep the data separated.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

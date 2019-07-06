@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/575668042119667712
 
 When I started using ngIf I noticed some `$rootScope` event listeners firing more than once per event.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

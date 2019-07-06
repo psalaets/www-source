@@ -7,7 +7,7 @@ metaDescription: Controlling friction and bounce of bodies in the p2 physics eng
 
 p2 is a JavaScript 2D physics library that works in the browser and node. Setting an object's friction and bounce is not obvious at first glance.
 
-### Versions used below
+**Versions used below**
 
 {% highlight bash %}
 {

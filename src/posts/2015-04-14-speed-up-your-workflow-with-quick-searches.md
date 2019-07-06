@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/587925563794415616
 
 As a developer I am always looking for ways to get more done in less time.
 
-### Versions used below
+**Versions used below**
 
 {% highlight bash %}
 Chrome 41

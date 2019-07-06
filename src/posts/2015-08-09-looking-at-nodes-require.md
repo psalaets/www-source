@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/631113764369268736
 
 Exploring various ways to load files using `require()`.
 
-### Versions used below
+**Versions used below**
 
 {% highlight bash %}
 node 0.10.36

@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/582544936366682112
 
 Define and run an arbitrary function that can have Angular services injected into it.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

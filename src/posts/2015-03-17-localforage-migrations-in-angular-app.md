@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/577832690940030977
 
 My Angular app's offline data schema needed to change and I had to preserve existing data.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

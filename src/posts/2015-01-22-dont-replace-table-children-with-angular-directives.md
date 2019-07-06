@@ -8,7 +8,7 @@ metaDescription: Why you cannot replace children of tables with Angular directiv
 
 Browsers react in a bad way when there are unexpected elements, like directives, inside a table.
 
-### Versions used below
+**Versions used below**
 
 {% highlight bash %}
 angular 1.3.8

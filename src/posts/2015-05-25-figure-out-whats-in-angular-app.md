@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/603207641540599809
 
 When an Angular app gets big it can be time consuming to figure out what injectables are available and what modules they are from.
 
-### Versions used below
+**Versions used below**
 
 {% highlight javascript %}
 {

@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/paulsalaets/status/585429203631398912
 
 If a package causes Sublime to hang as soon as it starts, you can't remove it with Package Control.
 
-### Versions used below
+**Versions used below**
 
 {% highlight bash %}
 Sublime Text 2.0.2 Build 2221
