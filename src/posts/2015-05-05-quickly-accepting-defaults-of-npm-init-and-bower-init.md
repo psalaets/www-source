@@ -34,12 +34,12 @@ There's a quicker way.
 ## npm init
 
 {% highlight bash %}
-$ npm init -f
+$ npm init -y
 {% endhighlight %}
 
 This will automatically accept the defaults.
 
-The `-f` stands for force. These flags also work: `--yes`, `-y`, `--force`.
+The `-y` stands for yes as in say yes to all the prompts. These flags also work: `--yes`, `-f`, `--force`.
 
 ## bower init
 
