@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf _site",
+    "clean": "rm -rf _site/*",
     "dserve": "DEBUG=Eleventy* eleventy --serve",
     "serve": "eleventy --serve",
     "watch-styles": "gulp watch",
+    "prebuild": "npm run clean",
     "build": "eleventy",
     "postbuild": "gulp post-process",
     "bump-version": "npm --no-git-tag-version version minor"

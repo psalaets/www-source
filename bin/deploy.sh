@@ -1,8 +1,6 @@
 echo 'Hold on to your butts'
 
 npm run bump-version
-
-rm -rf _site/*
 npm run build
 
 msg='updates'
