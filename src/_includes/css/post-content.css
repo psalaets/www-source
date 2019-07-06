@@ -7,9 +7,8 @@ styled code blocks.
 .post-content code:not([class*="language"]) {
   @apply .text-black .py-px .px-1 .rounded;
 
-  /* Keep these the same as in the prism theme */
-  background-color: #2d2d2d;
-  color: #cccccc;
+	background-color: #f3f3f4;
+  color: #24292e;
 }
 
 .post-content h2 {
