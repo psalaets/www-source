@@ -11,6 +11,10 @@ styled code blocks.
   color: #24292e;
 }
 
+/*
+Sizes from http://topfunky.com/baseline-rhythm-calculator/
+*/
+
 .post-content h2 {
   @apply .font-bold;
 
