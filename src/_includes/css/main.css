@@ -23,6 +23,7 @@
 .skipnav {
   position: absolute;
   top: -40px;
+  left: 1rem;
   transition: top 1s ease;
 }
 
