@@ -1,11 +1,14 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const excerpt = require('eleventy-plugin-excerpt');
+const md = require('./lib/libraries/markdown-it');
 
 const formatDate = require('date-fns/format');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(excerpt);
+
+  eleventyConfig.setLibrary('md', md);
 
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
