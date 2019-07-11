@@ -47,7 +47,7 @@ module.exports = function(eleventyConfig) {
   // components
 
   eleventyConfig.addPairedShortcode('link', function(text, url) {
-    return `<a href="${url}" rel="noopener noreferrer" class="text-blue-700 underline">${text}</a>`;
+    return `<a href="${url}" rel="noopener" class="text-blue-700 underline">${text}</a>`;
   });
 
   return {
