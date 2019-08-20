@@ -1,5 +1,4 @@
-const createRssFeed = require('./feed-helper');
-
+const createRssFeed = require('eleventy-rss-helper');
 const permalink = '/feed.xml';
 
 module.exports = createRssFeed({
@@ -8,7 +7,6 @@ module.exports = createRssFeed({
     return {
       title: 'paulsalaets.com',
       description: 'Latest posts from paulsalaets.com',
-      pubDate: new Date(),
       feed_url: `${data.global.baseUrl}${permalink}`,
       site_url: data.global.baseUrl,
       language: 'en-us'
