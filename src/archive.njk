@@ -11,9 +11,15 @@ metaDescription: All blog posts by Paul Salaets
   </h2>
   <ul>
     {% for post in postsByYear.posts %}
-      <li>
-        {% link post.url %}{{ post.data.title }}{% endlink %}
-      </li>
+      {% if loop.index % 4 == 0 and not loop.last %}
+        <li class="mb-4">
+          {% link post.url %}{{ post.data.title }}{% endlink %}
+        </li>
+      {% else %}
+        <li>
+          {% link post.url %}{{ post.data.title }}{% endlink %}
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>
