@@ -13,7 +13,7 @@ module.exports = createRssFeed({
     };
   },
   items(collections) {
-    return collections.post
+    return collections.posts
       .slice(-20)
       .reverse();
   },
