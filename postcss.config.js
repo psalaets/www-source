@@ -2,17 +2,19 @@ const tailwindcss = require('tailwindcss')
 const purgecss = require('@fullhuman/postcss-purgecss')
 const cssnano = require('cssnano')
 const autoprefixer = require('autoprefixer')
+const postcssImport = require('postcss-import');
 
 const plugins = [
-                  autoprefixer,
-                  tailwindcss('./tailwind.config.js'),
-                  cssnano({ preset: 'default', }),
-                ]
+  postcssImport,
+  tailwindcss,
+  autoprefixer,
+  cssnano,
+];
 
 if (process.env.NODE_ENV === 'production') {
   plugins.push(
     purgecss({
-      content: ['./dist/**/*.html'],
+      content: ['./_site/**/*.html'],
       extractors: [
         {
           extractor: class TailwindExtractor {
