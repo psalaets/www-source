@@ -4,7 +4,7 @@
   "description": "An 11ty starter with TailwindCSS, PostCSS, PurgeCSS and other modern tools",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf _site",
+    "clean": "rm -rf _site/*",
     "eleventy:default": "eleventy",
     "eleventy:watch": "eleventy --watch",
     "styles:prod": "postcss ./src/styles -d ./_site/styles/$npm_package_version",
