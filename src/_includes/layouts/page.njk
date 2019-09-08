@@ -1,0 +1,9 @@
+---
+layout: layouts/default
+---
+{% if title %}
+<header>
+  <h1 class="text-3xl font-bold">{{ title }}</h1>
+</header>
+{% endif %}
+{{ content | safe }}

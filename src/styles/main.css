@@ -1,0 +1,43 @@
+/* prism code blocks highlighting */
+@import "prismjs/themes/prism-tomorrow.css";
+
+/* font awesome */
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+
+/* tailwind css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* my stuff */
+@import "./post-content.css";
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.skipnav {
+  position: absolute;
+  top: -40px;
+  left: 1rem;
+  transition: top 1s ease;
+}
+
+.skipnav:focus {
+  top: 0px;
+  transition: top .2s ease-out;
+}
+
+.post-excerpt p {
+  @apply my-6;
+}
