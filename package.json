@@ -16,7 +16,8 @@
     "serve": "light-server -c .lightserverrc",
     "dev": "cross-env NODE_ENV=development npm-run-all clean scripts:dev markup:dev styles:dev --parallel eleventy:watch serve --print-label",
     "dev:debug": "DEBUG=* npm run dev",
-    "build": "cross-env NODE_ENV=production run-s clean scripts:prod markup:prod styles:prod --print-label"
+    "build": "cross-env NODE_ENV=production run-s clean scripts:prod markup:prod styles:prod --print-label",
+    "bump-version": "npm --no-git-tag-version version minor"
   },
   "repository": {
     "type": "git",
