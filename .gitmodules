@@ -2,3 +2,4 @@
 	path = _site
 	url = git@github.com:psalaets/psalaets.github.io.git
 	branch = master
+	ignore = all
