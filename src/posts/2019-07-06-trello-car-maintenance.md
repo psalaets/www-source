@@ -16,7 +16,7 @@ In the car's board, create one list for each year you have the car. Add new year
 
 ## One card per thing
 
-Give each card a title of "Month - Mileage - Thing", for example "Apr - 20167 - Oil change". New cards go at the bottom of their year list. Here is an [example year with cards](/assets/images/trello-car-maintenance/year-list.png).
+Give each card a title of "Month - Mileage - Thing", for example "Apr - 20167 - Oil change". New cards go at the bottom of their year list. Here is an [example year with cards](/images/trello-car-maintenance/year-list.png).
 
 A "thing" is any action or change that was done to your car.
 
