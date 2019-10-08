@@ -1,7 +1,7 @@
 ---
-title: Quickly accepting defaults of npm init and bower init
+title: Quickly accepting defaults of npm init
 layout: post
-metaDescription: Start a throwaway npm or bower module with minimal fuss
+metaDescription: Start an npm module with minimal fuss
 twitter_url: https://twitter.com/paulsalaets/status/595550000702173186
 ---
 
@@ -11,7 +11,6 @@ When trying out a module I start by downloading it into a new directory. I want 
 
 {% highlight bash %}
 npm 2.8.4
-bower 1.4.1
 {% endhighlight %}
 
 ## Test-driving a module
@@ -40,21 +39,3 @@ $ npm init -y
 This will automatically accept the defaults.
 
 The `-y` stands for yes as in say yes to all the prompts. These flags also work: `--yes`, `-f`, `--force`.
-
-## bower init
-
-There is no built-in option for bower but the unix `yes` command will work. It outputs its argument followed by a newline indefinitely. Try `yes hi` and then ctrl-c when you've had enough.
-
-Using `yes` with empty string will be like hitting enter to accept the defaults.
-
-{% highlight bash %}
-$ yes '' | bower init
-{% endhighlight %}
-
-That is still a decent bit of typing so alias it to something memorable.
-
-In `.bashrc` or somewhere:
-
-{% highlight bash %}
-alias bowerf="yes '' | bower init"
-{% endhighlight %}
