@@ -8,16 +8,6 @@
     <meta name="description" content="{{metaDescription}}">
   {% endif %}
 
-  {#
-    Hide font-awesome icons until the fa css has loaded.
-
-    When the fa css loads it will override this with display: inline-block.
-    Hiding icons before css loads prevents the flash-of-huge-icons.
-  #}
-  <style>
-    .svg-inline--fa {display: none;}
-  </style>
-
   <link rel="stylesheet" href="/styles/{{pkg.version}}/index.css">
   <link rel="canonical" href="{{global.baseUrl}}">
   <link rel="alternate" type="application/rss+xml" title="Subscribe to posts" href="/feed.xml" />
