@@ -2,15 +2,19 @@
   <a class="font-bold text-sm sm:text-base inline-block mr-3" href="/" title="Home">
     Paul Salaets
   </a>
+
   {% navlink '/', 'Home' %}
     {% navlinklabel page.url, '/', 'Home' %}
   {% endnavlink %}
+
   {% navlink '/about/', 'About' %}
     {% navlinklabel page.url, '/about/', 'About' %}
   {% endnavlink %}
+
   {% navlink '/archive/', 'Archive' %}
     {% navlinklabel page.url, '/archive/', 'Archive' %}
   {% endnavlink %}
+
   {% navlink '/feed.xml', 'Feed' %}
     <span class="sr-only">RSS Feed</span>
     {% fas 'rss' %}
