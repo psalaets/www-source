@@ -57,7 +57,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addShortcode('navlinklabel', function(currentPath, linkUrl, label) {
-    let classes = 'text-sm sm:text-base inline-block border-b-4';
+    let classes = 'inline-block border-b-4';
 
     if (currentPath === linkUrl) {
       classes += ' border-green-300';

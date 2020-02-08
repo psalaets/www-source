@@ -1,22 +1,26 @@
 <nav>
-  <a class="font-bold text-sm sm:text-base inline-block mr-3" href="/" title="Home">
-    Paul Salaets
-  </a>
+  <div class="w-full text-center mb-2 md:mb-0 md:inline-block md:w-auto md:text-left">
+    <a class="font-bold inline-block mr-3" href="/" title="Home">
+      Paul Salaets
+    </a>
+  </div>
 
-  {% navlink '/', 'Home' %}
-    {% navlinklabel page.url, '/', 'Home' %}
-  {% endnavlink %}
+  <div class="w-full text-center md:inline-block md:w-auto md:text-left">
+    {% navlink '/', 'Home' %}
+      {% navlinklabel page.url, '/', 'Home' %}
+    {% endnavlink %}
 
-  {% navlink '/about/', 'About' %}
-    {% navlinklabel page.url, '/about/', 'About' %}
-  {% endnavlink %}
+    {% navlink '/about/', 'About' %}
+      {% navlinklabel page.url, '/about/', 'About' %}
+    {% endnavlink %}
 
-  {% navlink '/archive/', 'Archive' %}
-    {% navlinklabel page.url, '/archive/', 'Archive' %}
-  {% endnavlink %}
+    {% navlink '/archive/', 'Archive' %}
+      {% navlinklabel page.url, '/archive/', 'Archive' %}
+    {% endnavlink %}
 
-  {% navlink '/feed.xml', 'Feed' %}
-    <span class="sr-only">RSS Feed</span>
-    {% fas 'rss' %}
-  {% endnavlink %}
+    {% navlink '/feed.xml', 'Feed' %}
+      <span class="sr-only">RSS Feed</span>
+      {% fas 'rss' %}
+    {% endnavlink %}
+  </div>
 </nav>
