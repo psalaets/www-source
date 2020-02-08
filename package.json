@@ -1,14 +1,14 @@
 {
   "name": "www-source",
-  "version": "1.36.0",
+  "version": "1.37.0",
   "description": "An 11ty starter with TailwindCSS, PostCSS, PurgeCSS and other modern tools",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf _site/*",
     "eleventy:default": "eleventy",
     "eleventy:watch": "eleventy --watch",
-    "styles:prod": "postcss ./src/styles -d ./_site/styles/$npm_package_version",
-    "styles:dev": "postcss ./src/styles -d ./_site/styles/$npm_package_version",
+    "styles:prod": "postcss ./src/styles/index.css -d ./_site/styles/$npm_package_version",
+    "styles:dev": "postcss ./src/styles/index.css -d ./_site/styles/$npm_package_version",
     "scripts:prod": "webpack --mode=production",
     "scripts:dev": "webpack --mode=development",
     "markup:prod": "npm run eleventy:default && html-minifier --input-dir _site --output-dir _site --collapse-whitespace --remove-comments --file-ext html",

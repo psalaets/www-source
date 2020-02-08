@@ -52,6 +52,22 @@ module.exports = function(eleventyConfig) {
     return `<a href="${url}" rel="noopener" class="text-blue-700 underline">${text}</a>`;
   });
 
+  eleventyConfig.addPairedShortcode('navlink', function(text, href, title) {
+    return `<a class="px-3 py-2" href="${href}" title="${title}">${text}</a>`;
+  });
+
+  eleventyConfig.addShortcode('navlinklabel', function(currentPath, linkUrl, label) {
+    let classes = 'text-sm sm:text-base inline-block border-b-4';
+
+    if (currentPath === linkUrl) {
+      classes += ' border-green-300';
+    } else {
+      classes += ' border-white';
+    }
+
+    return `<span class="${classes}">${label}</span>`
+  });
+
   return {
     dir: {
       input: 'src'
