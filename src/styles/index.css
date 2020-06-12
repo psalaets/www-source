@@ -1,9 +1,6 @@
 /* prism code blocks highlighting */
 @import "prismjs/themes/prism-tomorrow.css";
 
-/* font awesome */
-@import "@fortawesome/fontawesome-svg-core/styles.css";
-
 /* tailwind css */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
