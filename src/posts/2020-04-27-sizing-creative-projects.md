@@ -28,8 +28,8 @@ No. The rule only provides an upper bound on new projects. The lower bound is up
 
 ## What if I'm just starting out?
 
-Think of the smallest unit of a project you could make. Start and finish it.
+Think of the smallest project you could make. Start and finish it.
 
-Then think of the smallest unit of a project you could make that is bigger than the first project. Start and finish it.
+Then think of the smallest project you could make that is bigger than the first project. Start and finish it.
 
 Now you have finished two projects, probably made some mistakes and also learned a lot. The rule can help you pick your third project.
