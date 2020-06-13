@@ -56,6 +56,10 @@ Sizes from http://topfunky.com/baseline-rhythm-calculator/
 	margin-bottom: 1.5em;
 }
 
+.post-content .quote {
+	@apply .font-bold .text-xl;
+}
+
 .post-content ul {
   @apply .list-disc .list-inside;
 }

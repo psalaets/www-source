@@ -1,6 +1,6 @@
 {
   "name": "www-source",
-  "version": "1.41.0",
+  "version": "1.42.0",
   "description": "An 11ty starter with TailwindCSS, PostCSS, PurgeCSS and other modern tools",
   "main": "index.js",
   "scripts": {
