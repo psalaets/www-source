@@ -144,10 +144,10 @@ I've written a [module](https://github.com/psalaets/vuex-mock-context) that make
 
 ## When in doubt
 
-My favorite things to test are
+You should test
 
 - The most important things
 - The most complicated things
 - The things that always break
 
-Use your best judgement or start a conversation to determine if something needs a test.
+Use your best judgement or start a conversation with your team to determine if something needs a test.
