@@ -8,9 +8,9 @@ I did it with Nunjucks but the idea should translate to all of Eleventy's suppor
 
 ### Objective
 
-In my site hosted on Netlify, I want requests to `/blog` to be redirected to the latest blog post.
+With my site hosted on Netlify, I want requests to `/blog` to be redirected to the latest blog post.
 
-I don't want to manually update the `_redirects` file each time a post is published.
+I don't want to manually update the `_redirects` file each time a new post is published.
 
 ### Steps
 
@@ -21,16 +21,18 @@ I don't want to manually update the `_redirects` file each time a post is publis
 ---
 permalink: _redirects
 ---
+{%- raw -%}
 {%- set latestPost = collections.posts | reverse | first -%}
 /blog {{latestPost.url}}
+{% endraw %}
 ```
 
 3. Test by running an Eleventy build in your site's repo.
 
-```sh
+```
 $ npx @11ty/eleventy
 ```
 
-4. Verify that a `_redirects` file exists in the Eleventy output directory.
+4. Verify the presence and content of `_redirects` in the Eleventy output directory.
 
 The format of the `_redirects` file is described in [Netlify's documentation](https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file).
