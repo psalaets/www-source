@@ -8,7 +8,7 @@ With a site hosted on Netlify, I want requests to `/blog` to be redirected to th
 
 I did it with Nunjucks templates but the idea should translate to all of Eleventy's supported template languages.
 
-### Steps
+## Steps
 
 1. Create a file named `_redirects.njk` in your Eleventy input directory.
 2. The content of that file should be something like this
