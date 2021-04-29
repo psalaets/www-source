@@ -28,4 +28,4 @@ $ npx @11ty/eleventy
 {% endhighlight %}
 
 4. Verify the presence and content of `_redirects` in the Eleventy output directory. The format of the `_redirects` file is described in [Netlify's redirects documentation](https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file).
-5. `git push` to a Netlify-watched remote repo and get ready to celebrate.
+5. `git push` to your Netlify-watched remote repo and get ready to celebrate.
