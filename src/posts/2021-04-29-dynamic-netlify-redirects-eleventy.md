@@ -4,7 +4,7 @@ layout: post
 metaDescription: How to generate dynamic Netlify redirects with Eleventy
 ---
 
-With my site hosted on Netlify, I want requests to `/blog` to be redirected to the latest blog post. Also, I don't want to manually update the `_redirects` file each time a new post is published.
+With a site hosted on Netlify, I want requests to `/blog` to be redirected to the latest blog post. Also, I don't want to manually update the `_redirects` file each time a new post is published.
 
 I did it with Nunjucks templates but the idea should translate to all of Eleventy's supported template languages.
 
