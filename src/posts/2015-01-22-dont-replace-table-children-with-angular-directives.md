@@ -4,6 +4,7 @@ layout: post
 permalink: "/{{ page.fileSlug }}/"
 twitter_url: https://twitter.com/paulsalaets/status/558266291916918784
 metaDescription: Why you cannot replace children of tables with Angular directives and how to work around it
+tags: legacy
 ---
 
 Browsers react in a bad way when there are unexpected elements, like directives, inside a table.

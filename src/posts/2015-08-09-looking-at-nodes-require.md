@@ -3,6 +3,7 @@ title: Looking at node's require()
 layout: post
 metaDescription: Exploring various ways to load files using require.
 twitter_url: https://twitter.com/paulsalaets/status/631113764369268736
+tags: legacy
 ---
 
 Exploring various ways to load files using `require()`.

@@ -3,7 +3,7 @@ layout: layouts/page
 title: Archive
 metaDescription: All blog posts by Paul Salaets
 ---
-{% for postsByYear in collections.posts | reverse | byYear %}
+{% for postsByYear in collections.currentPosts | reverse | byYear %}
 <section class="mt-4">
   <h2 class="text-2xl font-bold">
     <span class="sr-only">Posts written in</span>

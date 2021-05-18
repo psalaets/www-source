@@ -3,6 +3,7 @@ title: $q promise chains need a digest cycle to go
 layout: post
 twitter_url: https://twitter.com/paulsalaets/status/568401499707052032
 metaDescription: $q promise chains will not propagate without a digest cycle
+tags: legacy
 ---
 
 In a Jasmine test for an Angular app, I stubbed a method that returns a $q promise. The test kept timing out even though I didn't forget about `done()`.

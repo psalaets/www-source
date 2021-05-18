@@ -2,6 +2,7 @@
 title: Preserving child selectors in Angular
 layout: post
 metaDescription: Angular components without breaking child selectors
+tags: legacy
 ---
 
 Angular components leave custom elements in the dom and that breaks styles which rely on child selectors. Here's a workaround.

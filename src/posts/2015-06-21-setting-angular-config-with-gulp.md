@@ -3,6 +3,7 @@ title: Setting Angular config with Gulp
 layout: post
 metaDescription: A way to set an Angular app config from a Gulp build
 twitter_url: https://twitter.com/paulsalaets/status/612996167475957760
+tags: legacy
 ---
 
 Exploring a way to set an Angular app's config from a Gulp build.

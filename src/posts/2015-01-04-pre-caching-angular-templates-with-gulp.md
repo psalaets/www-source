@@ -4,6 +4,7 @@ layout: post
 permalink: "/{{ page.fileSlug }}/"
 twitter_url: https://twitter.com/paulsalaets/status/552117335264620545
 metaDescription: Using gulp to pre-cache Angular templates so they are included with the initial app load
+tags: legacy
 ---
 
 In production deployments, include directive and route templates as part of your initial js load to reduce http requests made when using your app.

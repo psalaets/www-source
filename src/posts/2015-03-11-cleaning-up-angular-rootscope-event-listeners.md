@@ -3,6 +3,7 @@ title: Cleaning up Angular $rootScope event listeners
 layout: post
 metaDescription: How to clean up rootScope event listeners and what happens when you forget
 twitter_url: https://twitter.com/paulsalaets/status/575668042119667712
+tags: legacy
 ---
 
 When I started using ngIf I noticed some `$rootScope` event listeners firing more than once per event.

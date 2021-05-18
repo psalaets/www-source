@@ -5,7 +5,7 @@ metaDescription: Personal site of Paul Salaets
 <header class="sr-only">
   <h1 class="text-4xl">Recent Posts</h1>
 </header>
-{% for post in collections.posts | reverse | head(3) %}
+{% for post in collections.currentPosts | reverse | head(3) %}
   <article class="mb-8">
     <h2 class="text-3xl font-bold">
       <a href="{{ post.url }}" class="text-black no-underline hover:underline">

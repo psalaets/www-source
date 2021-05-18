@@ -3,6 +3,7 @@ title: Figure out what's in an Angular app
 layout: post
 metaDescription: Introducing a tool to see what injectables are in an Angular app and what modules they are from.
 twitter_url: https://twitter.com/paulsalaets/status/603207641540599809
+tags: legacy
 ---
 
 When an Angular app gets big it can be time consuming to figure out what injectables are available and what modules they are from.

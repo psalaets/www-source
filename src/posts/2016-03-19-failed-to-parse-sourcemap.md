@@ -2,6 +2,7 @@
 title: Failed to parse SourceMap
 layout: post
 metaDescription: Some things to check when your sourcemaps are bad.
+tags: legacy
 ---
 
 After upgrading to Chrome 49 I noticed a message in the devtools console saying it couldn't parse my sourcemaps. Here are some things to check when your sourcemaps are bad.

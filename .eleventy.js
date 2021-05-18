@@ -15,6 +15,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/CNAME');
 
+  // collections
+
+  eleventyConfig.addCollection('currentPosts', collectionApi => {
+    return collectionApi.getFilteredByTag('posts')
+      .filter(post => !post.data.tags.includes('legacy'));
+  });
+
+  // filters
+
   eleventyConfig.addFilter('postDate', value => {
     return formatDate(value, 'd MMM yyyy');
   });

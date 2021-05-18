@@ -3,6 +3,7 @@ title: Injecting Angular services into your own code
 layout: post
 metaDescription: How to get Angular dependencies injected into arbitrary functions
 twitter_url: https://twitter.com/paulsalaets/status/582544936366682112
+tags: legacy
 ---
 
 Define and run an arbitrary function that can have Angular services injected into it.

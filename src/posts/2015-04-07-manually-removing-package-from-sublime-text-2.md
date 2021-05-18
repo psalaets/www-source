@@ -3,6 +3,7 @@ title: Manually removing a package from Sublime Text 2
 layout: post
 metaDescription: Removing a package from Sublime Text 2 when the command palette is not available.
 twitter_url: https://twitter.com/paulsalaets/status/585429203631398912
+tags: legacy
 ---
 
 If a package causes Sublime to hang as soon as it starts, you can't remove it with Package Control.
