@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "axios": "^0.19.0",
+    "axios": "^0.21.2",
     "date-fns": "^2.1.0",
     "eleventy-plugin-excerpt": "^1.1.2",
     "eleventy-rss-helper": "^1.2.0",
