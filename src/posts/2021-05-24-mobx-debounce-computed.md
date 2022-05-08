@@ -6,6 +6,8 @@ metaDescription: How to get a debounce effect on a Mobx computed property.
 
 Let's say that you have a Mobx computed property that changes often and it has an expensive reaction. For some reason you can't easily debounce the reaction (e.g. React component) nor the computed's dependencies.
 
+_Edited on 2021-06-21:_ There is a [better way to handle this scenario](https://github.com/mobxjs/mobx/discussions/3013). Everything that follows will work but may not be the cleanest way to do it.
+
 **Versions used below**
 
 {% highlight javascript %}
